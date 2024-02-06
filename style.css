@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main_ingridients-title,
+.main_instructions-title,
+.main_nutritions-title {
+  color: hsl(14, 45%, 36%);
+}
+.main_time-title {
+  color: hsl(332, 51%, 32%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.wrap {
+  max-width: 1440px;
+  background-color: hsl(30, 54%, 90%);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  line-height: 2;
+  font-size: 16px;
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 600px;
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  display: block;
+  flex-direction: column;
+
+  overflow-wrap: break-word;
+
+  font-family: Outfit;
+}
+h1 {
+  font-family: "Young Serif";
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  font-weight: 700;
+  font-family: "Young Serif";
+  color: hsl(14, 45%, 36%);
+}
+
+h3 {
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+}
+header {
+  background-image: url("./assets/images/image-omelette.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.main_description {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+.main_time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  margin: 20px 0;
+}
+span {
+  font-weight: 700;
+}
+
+.main_time-list li::marker {
+  color: hsl(332, 51%, 32%);
+}
+li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+li::marker {
+  font-weight: bold;
+}
+ul {
+  padding: 15px;
+}
+ol {
+  padding: 15px;
+}
+li {
+  padding: 5px 0;
+}
+.nutrition {
+  padding-right: 10rem;
+}
+
+.values {
+  color: hsl(332, 51%, 32%);
+}
+table {
+  width: 100%;
+}
+
+.nutrition,
+.values {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
